@@ -11,7 +11,6 @@ var options = {
         email: email,
         key: key
     },
-    ip: "93.184.216.34",
     recordName: hostname,
     zoneName: zonename
 };
