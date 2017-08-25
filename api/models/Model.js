@@ -21,4 +21,4 @@ var UserSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('Tasks', UserSchema);
+module.exports = mongoose.model('UserSchema', UserSchema);

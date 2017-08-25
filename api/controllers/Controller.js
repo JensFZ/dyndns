@@ -3,7 +3,7 @@ require('dotenv').config();
 
 var ddns = require("cloudflare-dynamic-dns");
 var mongoose = require('mongoose'),
-  Task = mongoose.model('Tasks');
+  UserSchema = mongoose.model('UserSchema');
 
 exports.create_domain = function(req, res) {
 
