@@ -1,5 +1,7 @@
 require('dotenv').config();
 var ddns = require("cloudflare-dynamic-dns");
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/mydb";
 
 var email = process.env.CLOUDFLARE_EMAIL;
 var key = process.env.CLOUDFLARE_API_KEY;
