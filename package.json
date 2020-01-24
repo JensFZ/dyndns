@@ -18,7 +18,7 @@
     "cloudflare-dynamic-dns": "^1.0.0",
     "dotenv": "^4.0.0",
     "express": "^4.15.4",
-    "mongoose": "^4.11.8"
+    "mongoose": ">=5.7.5"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
