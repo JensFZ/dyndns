@@ -18,6 +18,6 @@
     "cloudflare-dynamic-dns": "^1.0.0",
     "dotenv": "^4.0.0",
     "express": "^4.15.4",
-    "mongoose": "^9.11.2"
+    "mongoose": "^9.11.4"
   }
 }
